@@ -1,0 +1,102 @@
+#back{
+    background-color: blueviolet;
+}
+
+#soham{
+    color: aquamarine;
+    
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+
+    
+    
+}
+
+#ritul{
+    color: rgb(255, 79, 10);
+    
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: absolute;
+  top: 80px;   /* adjust as needed */
+  right: 50px; /* move to the rightmost edge */
+}
+  #bar1 {
+   width: 90%;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    top: 450px;
+    left: 10px;
+    background-color: #c3e867;
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 10px;
+    overflow: hidden;
+   
+
+  }
+
+  
+   #bar2 {
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    top: 500px;
+    left: 10px;
+    background-color: #ec1d1d;
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 10px;
+    overflow: hidden;
+
+  }
+
+   
+    
+
+#contain{
+  position:center;
+}
+#but1{
+    width: 100px;
+    height: 50px;
+    background-color: hwb(88 41% 9%);
+    border-radius: 10%;
+}
+#but2{
+    width: 100px;
+    height: 50px;
+    background-color: #ec1d1d;
+    border-radius: 10%;
+}
+
+#dog{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+    top:px;
+    left: 0px;
+}
+
+#cat{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+    top:px;
+    left: 0px;
+}
+ @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .contain{
+      animation: spin 2s linear ;
+    }
